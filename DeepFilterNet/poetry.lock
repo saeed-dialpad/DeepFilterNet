@@ -257,8 +257,11 @@ develop = false
 numpy = ">=1.22"
 
 [package.source]
-type = "directory"
-url = "../pyDF-data"
+type = "git"
+url = "https://github.com/saeed-dialpad/DeepFilterNet.git"
+reference = "main"
+resolved_reference = "2f380d55cce5052d5a50a14e3c6573eb8b19359e"
+subdirectory = "pyDF-data"
 
 [[package]]
 name = "deepfilterlib"
@@ -274,8 +277,11 @@ develop = false
 numpy = ">=1.22"
 
 [package.source]
-type = "directory"
-url = "../pyDF"
+type = "git"
+url = "https://github.com/saeed-dialpad/DeepFilterNet.git"
+reference = "main"
+resolved_reference = "2f380d55cce5052d5a50a14e3c6573eb8b19359e"
+subdirectory = "pyDF"
 
 [[package]]
 name = "executing"
@@ -829,4 +835,4 @@ train = ["deepfilterdataloader", "icecream"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<4.0"
-content-hash = "8073dd9419459033bae252b1b404590d57250e76b4d550311d60b9c09fd701ae"
+content-hash = "2f3821c2ca558d4f5ac49c4be1beca7ebebafffe35766e95b0016d180cbe9b58"

@@ -23,8 +23,8 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-deepfilterlib = { git = "/https://github.com/saeed-dialpad/DeepFilterNet.git", subdirectory = "pyDF", branch = "main" }
-deepfilterdataloader = { git = "/https://github.com/saeed-dialpad/DeepFilterNet.git", subdirectory = "pyDF-data", branch = "main", optional = true }
+deepfilterlib = { git = "https://github.com/saeed-dialpad/DeepFilterNet.git", subdirectory = "pyDF", branch = "main" }
+deepfilterdataloader = { git = "https://github.com/saeed-dialpad/DeepFilterNet.git", subdirectory = "pyDF-data", branch = "main", optional = true }
 python = ">=3.10,<4.0"
 numpy = ">=2.0,<3.0"
 loguru = ">=0.5"
